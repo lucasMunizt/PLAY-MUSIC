@@ -47,7 +47,7 @@ document.querySelector('.anterior').addEventListener('click',() => {
         indexmusica = musicas.length;
     }
     renderizarmusica(indexmusica);
-
+    Tocarmusica();
 });
 
 document.querySelector('.proxima').addEventListener('click',() => {
@@ -56,6 +56,7 @@ document.querySelector('.proxima').addEventListener('click',() => {
         indexmusica = 0;
     }
     renderizarmusica(indexmusica);
+    Tocarmusica();
 });
 
 
