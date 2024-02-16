@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body,html{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #333;
+    color: #ddd;
+    
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.descrisao{
+    margin-top: 20px;
+    width: 300px;
+}
+
+.descrisao h4{
+    margin-bottom: 10px;
+}
+
+.duração {
+   margin-top: 10px;
+}
+
+.barra{
+    width: 300px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10px;
+}
+
+.tempo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+progress{
+    height: 6px;
+    width: 0;
+    background-color: #333;
+}
+
+.ponto{
+    width: 15px;
+    height: 15px;
+    background-color: #eee;
+    border-radius: 50px;
+    margin-left: -10px;
+}
+
+.player{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botao-play,.botao-pause{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.setas, .aleatorio{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.aleatorio{
+    
+    cursor:pointer;
+}
+
+.botao-pause{
+    display: none;
+}

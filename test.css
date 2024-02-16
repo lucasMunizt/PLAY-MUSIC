@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    background-color: #333;
+  }
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+    box-shadow: 0 1px 10px gray;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(68, 110, 96);
+}
+
+.imagem img{
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.descrisao h4{
+    margin-bottom: 15px;
+    width: 300px;
+}
+
+.duração {
+   margin-top: 10px;
+}
+
+.barra{
+    width: 300px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tempo{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+progress{
+    height: 6px;
+    width: 100%;
+    background-color: #333;
+}
+
+.ponto{
+    width: 20px;
+    height: 20px;
+    background-color: #eee;
+    border-radius: 50px;
+    margin-left: -2px;
+}
+
+.player{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.botao-play,.botao-pause{
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas{
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botao-pause{
+    display: none;
+}
